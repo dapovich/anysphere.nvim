@@ -1,4 +1,4 @@
-# greenlight.nvim
+# anysphere.nvim
 
 Anysphere colorscheme for neovim from Cursor AI editor.
 
