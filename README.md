@@ -2,7 +2,7 @@
 
 Anysphere colorscheme for neovim from Cursor AI editor.
 
-![screen](./media/cpp_screenshot.png)
+![screen](./assets/example.png)
     
 ## Installation
     
