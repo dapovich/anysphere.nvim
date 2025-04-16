@@ -5,6 +5,7 @@ local config = {}
 ---@field colors colors #Custom colors
 ---@field themes fun(colors:colors):groups #Custom highlight groups
 ---@field italics boolean #Whether to italicize some highlight groups
+---@field highlight_cursor_line boolean #Whether to highlight current cursor line or not
 local defaults = {
     transparent = false,
     colors = {},
