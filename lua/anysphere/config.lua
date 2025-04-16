@@ -12,6 +12,7 @@ local defaults = {
         return {}
     end,
     italics = true,
+    highlight_cursor_line = false,
 }
 
 config.options = vim.deepcopy(defaults)

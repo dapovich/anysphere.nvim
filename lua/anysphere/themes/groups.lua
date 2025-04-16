@@ -49,11 +49,11 @@ local defaults = {
     -- ColorColumn = { bg = colors.dark_blue },
     Cursor = { bg = colors.fg },
     -- CursorColumn = { bg = colors.vulcan },
-    -- CursorLine = { bg = colors.bg },
-    -- CursorLineNr = { fg = colors.seagreen },
+    CursorLine = { bg = config.highlight_cursor_line and "NvimDarkGrey3" or colors.bg },
+    LineNr = { fg = colors.fg },
+    CursorLineNr = { fg = colors.softpink },
     ErrorMsg = { fg = colors.pink },
     FloatTitle = { fg = colors.yellow },
-    LineNr = { fg = colors.softpink },
     -- MatchParen = { bg = colors.dark_gray, bold = true },
     ModeMsg = { fg = colors.peanut },
     MoreMsg = { fg = colors.peanut },
@@ -154,7 +154,7 @@ local defaults = {
     ["@type.builtin"] = { link = "Type" },
     ["@type.definition"] = { link = "Typedef" },
     ["@type.qualifier"] = { link = "Type" },
-    ["@variable"] = { fg = colors.fg },
+    ["@variable"] = { fg = colors.purple },
     ["@variable.builtin"] = { fg = colors.orange },
 
     -- semantic tokens
