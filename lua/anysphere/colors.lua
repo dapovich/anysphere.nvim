@@ -25,6 +25,7 @@ local defaults = {
     darkgray = "#4b5261",
     palevioletred2 = "#ee799f",
     lightgray = "#9ca3b2",
+    lightgray2 = "#939393",
     dawnblue = "#26292f",
     green = "#98c379",
     aqua = "#61afef",

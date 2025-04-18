@@ -39,7 +39,7 @@ local defaults = {
     SpecialComment = { fg = colors.yellow },
     Tag = { fg = colors.fg },
 
-    Comment = { fg = colors.gray3, italic = config.italics },
+    Comment = { fg = colors.lightgray2, italic = config.italics },
     Todo = { fg = colors.fg, bold = true, italic = config.italics },
 
     Error = { fg = colors.red },
