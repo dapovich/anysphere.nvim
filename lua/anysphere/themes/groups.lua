@@ -49,7 +49,7 @@ local defaults = {
     -- ColorColumn = { bg = colors.dark_blue },
     Cursor = { bg = colors.fg },
     -- CursorColumn = { bg = colors.vulcan },
-    CursorLine = { bg = config.highlight_cursor_line and "NvimDarkGrey3" or colors.bg },
+    CursorLine = { bg = "NvimDarkGrey3" },
     LineNr = { fg = colors.gray2 },
     CursorLineNr = { fg = colors.fg },
     ErrorMsg = { fg = colors.red },

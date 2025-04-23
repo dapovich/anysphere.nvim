@@ -39,7 +39,6 @@ require("anysphere").setup({
         return {}
     end,
     italics = true,
-    highlight_cursor_line = false,
 })
 ```
 
@@ -63,6 +62,5 @@ require("anysphere").setup({
         }
     end,
     italics = false, -- disable italics
-    highlight_cursor_line = true, -- enable highlighting for cursor line
 })
 ```
